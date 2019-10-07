@@ -1,0 +1,14 @@
+yarn init -y // Cria o package.json
+yarn add express // Cria o node_modules e acelera o desenvolvimento com um microframework (express).
+node src/server.js // executa o servidor
+yarn add nodemon -D // Em modo de desenvolvimento, vai dar autoreload nas alterações;
+adicione em package.json:
+"scripts": {
+    "dev": "nodemon src/server.js"
+  },
+
+  yarn add mongoose // Para trabalhar com mongodb
+
+  yarn add multer // receber imagens e forms
+
+  yarn add cors // lidar com cors
