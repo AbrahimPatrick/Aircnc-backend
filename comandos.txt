@@ -12,3 +12,5 @@ adicione em package.json:
   yarn add multer // receber imagens e forms
 
   yarn add cors // lidar com cors
+
+  yarn add socket.io // websocket
